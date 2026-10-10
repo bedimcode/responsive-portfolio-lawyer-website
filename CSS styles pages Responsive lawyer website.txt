@@ -1,0 +1,408 @@
+/*
+  BEDIMCODE
+
+  The CSS styles in this file were written entirely by Bedimcode. I included 
+  the styles from external pages to allow for copying and to speed up the video 
+  and project workflow.
+*/
+
+/* STUDY PAGES */
+.study {
+  padding-block: 5rem 3rem;
+}
+
+.study .section__header {
+  text-align: center;
+}
+
+.study__title {
+  font-size: var(--h2-font-size);
+  border-bottom: 1px solid var(--gray-color);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.study__container {
+  margin-top: 1.5rem;
+  background-color: var(--container-color);
+  box-shadow: 0 4px 24px hsla(0, 0%, 0%, 0.1);
+  border-radius: 1rem;
+  padding-bottom: 2rem;
+}
+
+.study__header {
+  background-color: var(--second-color);
+  color: var(--white-color);
+  padding: 1rem;
+  padding: 2rem 1rem;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.study__header-file {
+  display: flex;
+  column-gap: 0.5rem;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.study__header-circle {
+  width: 16px;
+  height: 16px;
+  background-color: var(--first-color);
+  border-radius: 50%;
+}
+
+.study__header-number {
+  border: 1px solid var(--first-color);
+  padding: 0.25rem 0.5rem;
+  border-radius: 4rem;
+  font-size: var(--small-font-size);
+}
+
+.study__header-status {
+  background-color: var(--first-color);
+  padding: 0.25rem 0.5rem;
+  font-size: var(--small-font-size);
+  border-radius: 4rem;
+  width: max-content;
+  margin-bottom: 1rem;
+}
+
+.study__header-title {
+  color: var(--white-color);
+  font-size: var(--big-font-size);
+  margin-bottom: 1.5rem;
+}
+
+.study__content, .study__area {
+  padding-inline: 1rem;
+}
+
+.study__area .button {
+  justify-self: center;
+}
+
+.study__key-list {
+  background-color: var(--body-color);
+  border: 1px solid var(--gray-color);
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+}
+
+.study__key-subtitle {
+  font-size: var(--h3-font-size);
+  margin-bottom: 1rem;
+}
+
+.study__key-items {
+  display: grid;
+  row-gap: 0.5rem;
+  list-style: disc;
+  padding-left: 1rem;
+}
+
+.study__key-item {
+  font-size: var(--small-font-size);
+}
+
+.study__status-box {
+  background-color: var(--body-color);
+  border: 1px solid var(--gray-color);
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.study__status-subtitle {
+  font-size: var(--h3-font-size);
+  margin-bottom: 1rem;
+}
+
+.study__time-group {
+  display: grid;
+  row-gap: 1rem;
+}
+
+.study__time-info {
+  display: grid;
+  row-gap: 0.5rem;
+}
+
+.study__time-subtitle {
+  font-size: var(--h3-font-size);
+}
+
+.study__time-date {
+  font-size: var(--smaller-font-size);
+}
+
+.study__time-description {
+  font-size: var(--small-font-size);
+}
+
+.study__specs {
+  background-color: var(--body-color);
+  border: 1px solid var(--gray-color);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.study__specs-group {
+  display: grid;
+  row-gap: 1rem;
+}
+
+.study__specs-subtitle {
+  font-size: var(--h3-font-size);
+}
+
+.study__specs-date {
+  font-size: var(--small-font-size);
+}
+
+.study__doc {
+  background-color: var(--body-color);
+  border: 1px solid var(--gray-color);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.study__doc-buttons {
+  display: grid;
+  row-gap: 0.5rem;
+}
+
+.study__doc-pdf {
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  border: 1px solid var(--first-color);
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  color: var(--title-color);
+  font-weight: var(--font-semi-bold);
+}
+
+.study__doc-pdf i {
+  font-size: 1.5rem;
+  font-weight: initial;
+  color: var(--first-color);
+}
+
+/* STUDY PAGES BREAKPOINTS */
+@media (width >= 1150px) {
+  .study {
+    padding-bottom: 5rem;
+  }
+  .study .section__header {
+    align-items: flex-start;
+  }
+  .study__container {
+    margin-top: 4rem;
+    border-radius: 2rem;
+    padding-bottom: 3rem;
+    grid-template-columns: repeat(2, 480px);
+    column-gap: 4rem;
+    align-items: flex-start;
+    row-gap: 3rem;
+  }
+  .study__header {
+    padding: 3rem;
+    border-radius: 2rem 2rem 0 0;
+    grid-column: 1/4;
+  }
+  .study__title {
+    font-size: var(--h1-font-size);
+  }
+  .study__content {
+    padding-inline: 3rem 0;
+    grid-column: 1/2;
+  }
+  .study__area {
+    padding-inline: 0 3rem;
+    grid-column: 2/4;
+  }
+  .study__area .button {
+    justify-self: flex-start;
+  }
+  .study__key-list, .study__status-box, .study__specs {
+    padding: 2rem;
+    border-radius: 1rem;
+  }
+  .study__time-group {
+    row-gap: 1.25rem;
+  }
+  .study__specs-group {
+    row-gap: 1.5rem;
+  }
+}
+
+/* SERVICES PAGES */
+.service {
+  padding-block: 5rem 3rem;
+}
+
+.service .section__header {
+  text-align: center;
+}
+
+.service__header {
+  padding-block: 3rem 2rem;
+}
+
+.service__tag {
+  display: flex;
+  column-gap: 0.5rem;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.service__circle {
+  width: 16px;
+  height: 16px;
+  background-color: var(--first-color);
+  border-radius: 50%;
+}
+
+.service__text {
+  border: 1px solid var(--first-color);
+  padding: 0.25rem 0.5rem;
+  border-radius: 4rem;
+  font-size: var(--small-font-size);
+}
+
+.service__title {
+  font-size: var(--h2-font-size);
+  margin-bottom: 1rem;
+}
+
+.service__subtitle {
+  font-size: var(--h3-font-size);
+  margin-bottom: 1rem;
+}
+
+.service__card {
+  display: grid;
+  row-gap: 1rem;
+}
+
+.service__card-article {
+  background-color: var(--body-color);
+  padding: 1rem;
+  border: 1px solid var(--gray-color);
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px hsla(0, 0%, 0%, 0.1);
+}
+
+.service__card-data {
+  display: flex;
+  column-gap: 0.5rem;
+  align-items: flex-start;
+  margin-bottom: 0.5rem;
+}
+
+.service__card i {
+  font-size: 1rem;
+  color: var(--first-color);
+}
+
+.service__card-name {
+  font-size: var(--small-font-size);
+  font-family: var(--body-font);
+}
+
+.service__card-description {
+  font-size: var(--small-font-size);
+  padding-left: 1.5rem;
+}
+
+.service__corp {
+  background-color: var(--second-color);
+  padding: 1.5rem;
+  border-radius: 1rem;
+  color: var(--white-color);
+}
+
+.service__corp .service__subtitle {
+  color: var(--white-color);
+}
+
+.service__corp .button {
+  margin-top: 2rem;
+}
+
+.service__scope {
+  background-color: var(--body-color);
+  padding: 1.5rem;
+  border-radius: 1rem;
+  border: 1px solid var(--gray-color);
+  box-shadow: 0 4px 8px hsla(0, 0%, 0%, 0.1);
+}
+
+.service__list {
+  display: grid;
+  row-gap: 1rem;
+}
+
+.service__item {
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  font-size: var(--small-font-size);
+  font-weight: var(--font-medium);
+}
+
+.service__item i {
+  font-size: 1rem;
+  color: var(--first-color);
+}
+
+/* SERVICE PAGES BREAKPOINTS */
+@media (width >= 1150px) {
+  .service {
+    padding-block: 5rem;
+  }
+  .service .section__header {
+    align-items: flex-start;
+  }
+  .service__header {
+    padding-block: 3rem;
+  }
+  .service__title {
+    font-size: var(--big-font-size);
+  }
+  .service__description {
+    max-width: 850px;
+  }
+  .service__container {
+    grid-template-columns: 630px 435px;
+    column-gap: 4rem;
+    align-items: flex-start;
+  }
+  .service__subtitle {
+    font-size: var(--h1-font-size);
+    margin-bottom: 1.5rem;
+  }
+  .service__card-article {
+    padding: 2rem;
+  }
+  .service__card i {
+    font-size: 1.5rem;
+  }
+  .service__card-name {
+    font-size: var(--h3-font-size);
+    margin-bottom: 1rem;
+  }
+  .service__card-description {
+    font-size: var(--normal-font-size);
+  }
+  .service__corp, .service__scope {
+    padding: 2rem;
+  }
+  :is(.service__corp, .service__scope) .service__subtitle {
+    font-size: var(--h2-font-size);
+  }
+  .service__item {
+    font-size: var(--normal-font-size);
+  }
+}

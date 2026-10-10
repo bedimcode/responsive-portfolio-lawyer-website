@@ -1,0 +1,290 @@
+========== HEADER & NAV ==========
+
+🔹.nav__logo
+Paul Laws
+
+🔹.nav__link
+Home - About - Case Study - Services - Contact Me
+
+========== HOME SECTION ==========
+
+🔹.home__title
+Your Trusted <br>
+Legal <span>Guidance</span>
+
+🔹.home__description
+Expert legal advice for your personal and business needs. Let’s build
+your strongest case together.
+
+🔹.button
+Star Your Case
+
+🔹.home__name
+Paul Laws
+
+========== ABOUT SECTION ==========
+
+🔹.section__subtitle
+ABOUT ME
+
+🔹.about__description
+I am a committed legal professional with over <span>20+</span> of experience defending my
+clients' rights and interests. Having handled more than <span>100+</span> cases, I offer
+clear guidance and strategic, results-oriented solutions.
+
+🔹.button
+Get a Free Quote
+
+========== CASE SECTION ==========
+
+🔹.section__subtitle
+CASE HIGHLIGHTS
+
+🔹.section__title
+Recent Cases with <br>
+Proven <span>Results</span>
+
+🔹.section__description
+Explore real-life cases where I have provided effective legal solutions and achieved
+results for my clients.
+
+🔹.case__state
+PROPERTY & REAL ESTATE
+FAMILY & DIVORCE
+CRIMINAL DEFENCE
+
+🔹.case__date
+OCT 2025
+AUG 2025
+DEC 2025
+
+🔹.case__title
+Ownership is Secured For <br> 
+<span>Property Dispute</span>
+
+Agreement reached in <br> 
+<span>Family Law Case</span>
+
+Charges dismissed in <br> 
+<span>Criminal Defense Case</span>
+
+🔹.case__description
+Managing a complex land dispute, confirming my clients' property rights, and
+facilitating a smooth real estate development.
+
+🔹.button
+Case Study
+
+
+========== PROCESS SECTION ==========
+
+🔹.section__subtitle
+CASE PROCESS
+
+🔹.section__title
+Three Key <br> 
+<span>Process</span>
+
+🔹.section__description
+I offer reliable legal services, backed by proven experience and a
+results-oriented approach.
+
+🔹.process__number
+01
+
+02
+
+03
+
+🔹.process__title
+Discover & Strategic Snalysis
+
+Execution & Diligent defense
+
+Resolution & Finality
+
+🔹.process__description
+I begin with an intensive one-on consultation to evaluate the unique merits of
+your case. I conduct exhaustive research to build a custom legal strategy
+tailored specifically to your objectives.
+
+
+========== SERVICES SECTION ==========
+
+🔹.section__subtitle
+MY SERVICES
+
+🔹.section__title
+Services Tailored <br> 
+<span>To You Needs</span>
+
+🔹.button
+Star Your Case
+
+🔹.services__number
+01
+
+02
+
+03
+
+04
+
+05
+
+🔹.services__title
+Corporate & Business Law
+
+Civil Litigation
+
+Criminal Defense
+
+Family And Divorce Law
+
+Property & Real State Law
+
+🔹.services__status
+CORPORATE
+
+🔹.services__description
+Legal advice for startups and established companies. From company
+incorporation to hiring.
+
+
+========== QUESTIONS / FAQ SECTION ==========
+
+🔹.section__subtitle
+FAQS
+
+🔹.section__title
+Frequently <br> 
+<span>Asked Questions</span>
+
+🔹.questions__title
+Clear advice, real <br> answers & no pressure.
+
+🔹.questions__description
+I answer common questions about my services, fees, and consultations with
+full transparency.
+
+🔹.button
+Inquire Via WhatsApp
+https://api.whatsapp.com/send?phone=51123456789&text=Hello, more information!
+
+🔹.questions__name
+Do you offer an initial consultation?
+
+How are legal fees calculated?
+
+Will my information remain confidential?
+
+How long will my case take?
+
+Do you handle cases outside your city?
+
+How can I get started?
+
+🔹.questions__text
+Fees depend on the nature, complexity, and duration of your case.
+I make sure to clearly explain all costs before beginning any work, so
+you always know what to expect. I also take the time to discuss potential
+additional expenses upfront and answer any questions you may have.
+
+
+========== CLIENTS SECTION ==========
+
+🔹.section__subtitle
+CLIENT FEEDBACK
+
+🔹.section__title
+See What My <br> 
+<span>Clients Say</span>
+
+🔹.section__description
+See how my guidance has made a real difference for my clients and their
+cases in real life.
+
+🔹.clients__point
+5.0 Rating
+
+🔹.clients__description
+Handled my case with precision and expertise. His communication was
+excellent, and the outcome exceeded my expectations.
+
+🔹.clients__name
+Samuel Reynols
+
+🔹.clients__city
+New York
+
+========== CONTACT SECTION ==========
+
+🔹.section__subtitle
+CONTACT ME
+
+🔹.section__title
+Start Your <br> 
+<span>Case Today</span>
+
+🔹.contact__input
+Your Name
+Your Email
+Message: (legal service & phone)
+
+🔹.button
+Send Message
+
+🔹.contact__map
+
+<!-- Insert your location into Google Maps (https://www.google.com/maps) -->
+<!-- Click Share -> Embed Map -> Copy HTML -->
+
+🔹.contact__form
+id="contact-form"
+
+========== FOOTER ==========
+
+🔹.footer__social
+https://www.facebook.com/
+https://www.instagram.com/
+https://www.linkedin.com/
+
+🔹.footer__title
+Your Trusted <br>
+Legal Guidance
+
+🔹.footer__description
+Expert legal advice for personal and business matters; build a stronger case.
+
+🔹.footer__subtitle 🔹.footer__link 🔹.footer__conect
+Quick Links
+  About
+  Cases
+  Services
+  Contact
+
+Write Message
+  Whatsapp
+  https://api.whatsapp.com/send?phone=51123456789&text=Hello, more information!
+
+  Messenger
+  https://m.me/bedimcode
+
+  Telegram
+  https://t.me/telegram
+
+Connect Me
+paul@email.com
+
+tel:+0123456789
+0123456789
+
+Peru, Lima, The Sun #987
+
+
+
+🔹.footer__date
+Paul Laws - <span id="footer-date"></span>
+
+🔹.footer__copy
+&#169; All Rights Reserved By Bedimcode
