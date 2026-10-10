@@ -1,4 +1,4 @@
-# Responsive Lawyer Portfolio Website
+# Responsive Portfolio Lawyer Website
 
 This project is part of a step-by-step YouTube tutorial in which we build a responsive lawyer portfolio website from scratch using HTML, CSS and JavaScript with mobile first
 
